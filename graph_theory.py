@@ -31,3 +31,4 @@ def bfs(graph, start, goal):
             current_node = parent_node[current_node]
         path.reverse()
         return path
+    return -1
